@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import {NavigationBar} from "@/components/NavigationBar";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import NavigationBarMobile from "@/components/NavigationBar/NavigationBarMobile"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,8 +30,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      > 
+        <SidebarProvider defaultOpen={false}>
+            <NavigationBar />
+          {children}
+        </SidebarProvider>
       </body>
     </html>
   );
