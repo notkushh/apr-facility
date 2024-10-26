@@ -5,9 +5,7 @@ export default function RootLayout({
 }) {
   return (
         <div>
-            <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
-              {children}
-            </main>
+          {children}
         </div>
   );
 }

@@ -4,7 +4,8 @@
 
 body {
   /* font-family: Arial, Helvetica, sans-serif; */
-  overflow-x: scroll;
+  /* overflow-y: scroll; */
+  height: 100vh;
 }
 
 @layer utilities {
@@ -61,7 +62,7 @@ body {
 }
 
 .nav-bar p {
-  font-family: var(--font-geist-mono);
+  font-family: var(--font-geist-sans);
   font-weight: 400;
 }
 
@@ -72,3 +73,11 @@ body {
   transition: p ease-in 1s;
 }
 
+.footer {
+  background-color: #eeeeee;
+  justify-content: space-evenly;
+}
+
+.quick-links a:hover {
+  color: var(--sidebar-foreground);
+}

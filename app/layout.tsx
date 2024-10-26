@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import {NavigationBar} from "@/components/NavigationBar";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
-import NavigationBarMobile from "@/components/NavigationBar/NavigationBarMobile"
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,11 +29,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased main-layout`}
       > 
         <SidebarProvider defaultOpen={false}>
+          <main className="pt-[75px] w-full pb-[100px] relative">
             <NavigationBar />
-          {children}
+              {children}
+            <Footer />
+          </main>
         </SidebarProvider>
       </body>
     </html>

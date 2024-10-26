@@ -13,6 +13,9 @@ const config: Config = {
   			'below-680': {
   				max: '680px'
   			},
+			'below-400': {
+				max: '400px'
+			},
 			'above-680': {
 				min: '680px'
 			}
