@@ -18,9 +18,9 @@ export function NavigationBar() {
       <div className="pl-[20px]">
         <SlackLogo />
       </div>
-      <button onClick={toggleSidebar}>
-        <Menu className="menu-toggle above-680:hidden mr-2" />
-      </button>
+      <div onClick={toggleSidebar}>
+        <Menu className="above-680:hidden mr-2" style={{ color: "#383636" }} />
+      </div>
       <NavigationBarMobile navMenu={NavbarMenu} />
       <NavigationBarWeb navMenu={NavbarMenu} />
     </header>

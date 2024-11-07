@@ -5,10 +5,11 @@ interface ImageCardProps {
   src: string;
   alt: string;
   h: number;
-  w: number;
+  w: number | string;
+  objectFit: string;
 }
 
-function ImageCard({ src, alt, h, w }: ImageCardProps) {
+function ImageCard({ src, alt, h, w, objectFit }: ImageCardProps) {
   return (
     <div
       style={{
@@ -18,7 +19,7 @@ function ImageCard({ src, alt, h, w }: ImageCardProps) {
       }}
       className="rounded-lg overflow-hidden flex justify-center"
     >
-      <Image src={src} alt={alt} layout="fill" objectFit="contain" />
+      <Image src={src} alt={alt} layout="fill" objectFit={objectFit} />
     </div>
   );
 }

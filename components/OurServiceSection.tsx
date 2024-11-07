@@ -3,7 +3,13 @@ import Cards from "./Cards";
 import Data from "@/utils/data/navigationBarData";
 import Link from "next/link";
 
-function OurServiceSection({ heading }: { heading: string }) {
+function OurServiceSection({
+  heading,
+  showAllServiceBtn = true,
+}: {
+  heading: string;
+  showAllServiceBtn?: boolean;
+}) {
   const serviceList = Data[1].submenu;
 
   return (
@@ -28,11 +34,13 @@ function OurServiceSection({ heading }: { heading: string }) {
         })}
       </div>
 
-      <Link href="/services">
-        <div className=" w-fit h-8 bg-slate-400 mt-8 p-6 flex justify-center items-center text-white rounded-sm service-sec-btn-color text-lg font-semibold">
-          View All Services
-        </div>
-      </Link>
+      {showAllServiceBtn && (
+        <Link href="/services">
+          <div className="w-fit h-8 bg-slate-400 mt-8 p-6 flex justify-center items-center text-white rounded-sm service-sec-btn-color text-lg font-semibold">
+            View All Services
+          </div>
+        </Link>
+      )}
     </div>
   );
 }

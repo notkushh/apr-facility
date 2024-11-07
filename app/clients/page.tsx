@@ -23,6 +23,7 @@ export default function ClientPage() {
                 alt={client.name}
                 h={150}
                 w={150}
+                objectFit="contain"
               />
             );
           })}

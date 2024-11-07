@@ -8,7 +8,7 @@ function CardWithHeading({
   children: React.ReactNode;
 }) {
   return (
-    <div className="w-full relative border-t border-gray-300 mt-6 mb-10 max-w-full min-w-full">
+    <div className="w-full relative border-t border-gray-300 mt-6 mb-10 min-w-full  max-w-full">
       <div className="absolute p-[5px] pr-[10px] bg-white top-[-20px] z-[2] font-bold font-sans">
         {text}
       </div>

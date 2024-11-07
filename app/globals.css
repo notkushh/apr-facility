@@ -86,18 +86,10 @@ body {
   color: var(--sidebar-foreground);
 }
 
-.menu-toggle {
-  background-color: hsl(0 0% 100% / 0.6);
-  backdrop-filter: blur(7px);
-}
-
 .tranparent-black-bg {
   background-color: #18181a80;
 }
 
-/* .contact-us  {
-  font-family: var(--font-geist-mono);
-} */
 .service-sec-btn-color {
   background-color: #2184c7;
 }

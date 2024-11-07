@@ -21,7 +21,7 @@ function NavigationBarWeb({ navMenu }: { navMenu: NavItem[] }) {
         <NavigationMenuItem key={navItem.title}>
           <Link href={navItem.href} legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <p>{navItem.title}</p>
+              <p className="font-extrabold text-base">{navItem.title}</p>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -30,7 +30,7 @@ function NavigationBarWeb({ navMenu }: { navMenu: NavItem[] }) {
       return (
         <NavigationMenuItem key={navItem.title}>
           <NavigationMenuTrigger>
-            <p>{navItem.title}</p>
+            <p className="font-extrabold text-base">{navItem.title}</p>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="flex flex-col w-[220px]">
@@ -63,16 +63,16 @@ const ListItem = React.forwardRef(
       <li>
         <NavigationMenuLink
           asChild
-          className={cn("w-[220px]", navigationMenuTriggerStyle())}
+          className={cn("w-[220px] top-[-10px]", navigationMenuTriggerStyle())}
         >
           <Link
             href={pageLink}
             className={cn(
-              "w-[220px] h-full block select-none space-y-1 rounded-md p-4 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+              "w-[220px] h-full block select-none space-y-1 rounded-md p-4 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-black"
             )}
           >
-            <div className="text-sm font-medium leading-none w-[220px]">
-              <p>{title}</p>
+            <div className="text-sm font-medium leading-none w-[220px] hover:text-black">
+              <p className="text-sm text-gray-500">{title}</p>
             </div>
           </Link>
         </NavigationMenuLink>

@@ -39,7 +39,7 @@ export default function ContactPage() {
         text="Contact Us"
       />
 
-      <div className="below-680:w-[85%] w-[80%] h-fit flex flex-col justify-center items-center gap-5 flex-wrap">
+      <div className="below-680:w-[85%] w-[55%] h-fit flex flex-col justify-center items-center gap-5 flex-wrap">
         <CardWithHeading text={"Get In Touch"}>
           <div className="flex flex-col gap-4 contact-us">
             <div className="flex flex-col items-start gap-6 text-lg below-400:text-base mt-3">
