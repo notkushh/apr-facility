@@ -58,7 +58,7 @@ function NavigationBarWeb({ navMenu }: { navMenu: NavItem[] }) {
 }
 
 const ListItem = React.forwardRef(
-  ({ title, pageLink }: { title: string; pageLink: any }, ref) => {
+  ({ title, pageLink }: { title: string; pageLink: string }) => {
     return (
       <li>
         <NavigationMenuLink

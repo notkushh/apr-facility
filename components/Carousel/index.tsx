@@ -4,7 +4,6 @@ import { EmblaOptionsType } from "embla-carousel";
 import "./css/embla.css";
 
 const OPTIONS: EmblaOptionsType = { loop: true };
-const SLIDE_COUNT = 5;
 
 type carouselImageType = {
   src: string;
