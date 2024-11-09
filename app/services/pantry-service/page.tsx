@@ -18,8 +18,8 @@ export default function PantryService() {
               About Pantry Services
             </p>
             <ImageCard
-              src={"/assets/images/pest-control-image1.jpg"}
-              alt={"pest-control-1"}
+              src={"/assets/images/pantry-services-image1.jpg"}
+              alt={"pantry-service"}
               h={200}
               w={"100%"}
               objectFit="cover"

@@ -18,7 +18,7 @@ export default function SecurityService() {
               About Pantry Services
             </p>
             <ImageCard
-              src={"/assets/images/pest-control-image1.jpg"}
+              src={"/assets/images/security-service-image1.png"}
               alt={"pest-control-1"}
               h={200}
               w={"100%"}

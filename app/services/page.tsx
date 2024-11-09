@@ -5,7 +5,7 @@ export default function OurServicePage() {
   return (
     <div className="flex flex-col justify-center items-center">
       <PageImageCover
-        imgSrc="/assets/images/pantry-services-main1.jpg"
+        imgSrc="/assets/images/services-main.jpg"
         alt="Our Services"
         text="Our Services"
       />
