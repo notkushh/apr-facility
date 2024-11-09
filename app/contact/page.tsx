@@ -25,7 +25,7 @@ export default function ContactPage() {
         </div>
         <div className=" flex flex-col gap-1">
           <p className="text-lg text-blue-500 font-bold">{fieldName}</p>
-          <p>{fieldText}</p>
+          <p className="text-base">{fieldText}</p>
         </div>
       </div>
     );

@@ -10,6 +10,7 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
+import Link from "next/link";
 
 type PropType = {
   slides: carouselImageType[];
@@ -19,6 +20,7 @@ type carouselImageType = {
   src: string;
   text: string;
   desc: string;
+  href: string;
 };
 
 const EmblaCarousel: React.FC<PropType> = (props) => {
@@ -64,14 +66,16 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                   alt={image.text}
                   layout="fill"
                   objectFit="cover"
-                  className="h-[80vh]"
+                  className="h-[80vh] z-10"
                 />
-                <div className="absolute w-full h-[80vh] z-10 tranparent-black-bg pl-16 pr-16 bottom-0 flex flex-col justify-end pb-20">
-                  <p className="text-white text-3xl font-bold pb-3">
-                    {image.text}
-                  </p>
-                  <p className="text-white">{image.desc}</p>
-                </div>
+                <Link href={image.href}>
+                  <div className="absolute w-full h-[80vh] z-10 tranparent-black-bg pl-16 pr-16 bottom-0 flex flex-col justify-end pb-20">
+                    <p className="text-white text-3xl font-bold pb-3">
+                      {image.text}
+                    </p>
+                    <p className="text-white">{image.desc}</p>
+                  </div>
+                </Link>
               </div>
             </div>
           ))}
