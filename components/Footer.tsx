@@ -11,11 +11,11 @@ function Footer() {
           <div className="pb-[10px]">
             <Logo width={220} height={100} />
           </div>
-          <div className="text-center flex flex-col gap-4">
+          <div className="flex flex-col gap-4">
             <div className="flex flex-col items-start gap-1 text-xs">
               <div className="flex gap-2">
                 <div className="flex flex-col items-start">
-                  <p>H.N.222B, NKV Residency Behind DPG College,</p>{" "}
+                  <p>H.N.222B, NKV Residency Behind DPG College,</p>
                   <p>Gurgaon, Haryana-122001</p>
                 </div>
               </div>
