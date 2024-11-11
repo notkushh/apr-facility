@@ -1,20 +1,18 @@
-import { Slack } from "lucide-react";
+import Logo from "@/public/assets/images/logo/apr-facility-logo.svg";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="footer absolute w-full flex bg-color-eeee text-slate-600 p-4 gap-6 below-400:flex-col below-400:items-start">
-      <div className="flex flex-col items-center justify-center below-400:p-[10px]">
-        <Slack height={50} width={50} color="green" />
+    <footer className="footer absolute w-full flex bg-color-eeee text-slate-600 p-4 gap-20 below-400:flex-col below-400:items-center">
+      <div className="flex flex-col items-center justify-center below-400:p-[10px] w-full">
+        <div className="pb-[10px]">
+          <Logo width={220} height={100} />
+        </div>
         <div className="text-center flex flex-col gap-4">
-          <h1 className="text-lg font-bold">
-            APR Facilities Services Private Limited
-          </h1>
           <div className="flex flex-col items-start gap-1 text-xs">
             <div className="flex gap-2">
-              {/* <p className='font-bold'>Address: </p> */}
               <div className="flex flex-col items-start">
                 <p>H.N.222B, NKV Residency Behind DPG College,</p>{" "}
                 <p>Gurgaon, Haryana-122001</p>
@@ -30,7 +28,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-3 justify-evenly below-400:p-[10px]">
+      <div className="flex flex-col gap-3 justify-evenly below-400:p-[10px] w-full items-center ">
         <div className="text-2xl">Quick Links</div>
         <div className="flex flex-col gap-2 quick-links">
           <Link href="/">Home</Link>
@@ -40,7 +38,7 @@ function Footer() {
         </div>
       </div>
 
-      <div>
+      <div className="w-full flex justify-center items-center">
         <Image
           src="/assets/images/iso9001.png"
           alt="Description of the image"
