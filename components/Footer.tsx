@@ -28,7 +28,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-3 justify-evenly below-400:p-[10px] w-full items-center ">
+      <div className="flex flex-col gap-3 justify-evenly below-400:pl-[70px] w-full items-center below-400:items-start">
         <div className="text-2xl">Quick Links</div>
         <div className="flex flex-col gap-2 quick-links">
           <Link href="/">Home</Link>
@@ -38,7 +38,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center items-center">
+      <div className="w-full flex below-400:flex-col justify-center items-center below-400:items-start below-400:pl-[70px] ">
         <Image
           src="/assets/images/iso9001.png"
           alt="Description of the image"
