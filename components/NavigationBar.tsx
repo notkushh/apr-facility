@@ -8,7 +8,7 @@ import NavigationBarMobile from "./NavigationBar/NavigationBarMobile";
 
 import { useSidebar } from "@/components/ui/sidebar";
 import { Menu } from "lucide-react";
-import SlackLogo from "@/public/assets/images/slackLogo.svg";
+import Logo from "@/public/assets/images/logo/apr-facility-logo.svg";
 import Link from "next/link";
 
 export function NavigationBar() {
@@ -18,7 +18,7 @@ export function NavigationBar() {
     <header className="nav-bar font-medium w-full">
       <div className="pl-[20px]">
         <Link href="/">
-          <SlackLogo />
+          <Logo width={150} height={500} />
         </Link>
       </div>
       <div onClick={toggleSidebar}>
