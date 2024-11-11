@@ -33,10 +33,6 @@ const ClientInfo: ClientInfoType[] = [
     imgSrc: "/assets/images/clients/client-fosroc.jpg",
   },
   {
-    name: "groww",
-    imgSrc: "/assets/images/clients/client-groww.png",
-  },
-  {
     name: "innhouse",
     imgSrc: "/assets/images/clients/client-innhouse.jpg",
   },

@@ -68,14 +68,12 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                   objectFit="cover"
                   className="h-[80vh] z-10"
                 />
-                <Link href={image.href}>
-                  <div className="absolute w-full h-[80vh] z-10 tranparent-black-bg pl-16 pr-16 bottom-0 flex flex-col justify-end pb-20">
-                    <p className="text-white text-3xl font-bold pb-3">
-                      {image.text}
-                    </p>
-                    <p className="text-white">{image.desc}</p>
-                  </div>
-                </Link>
+                <div className="absolute w-full h-[80vh] z-10 tranparent-black-bg pl-16 pr-16 bottom-0 flex flex-col justify-end pb-20">
+                  <p className="text-white text-3xl font-bold pb-3">
+                    {image.text}
+                  </p>
+                  <p className="text-white">{image.desc}</p>
+                </div>
               </div>
             </div>
           ))}

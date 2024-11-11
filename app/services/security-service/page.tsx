@@ -15,7 +15,7 @@ export default function SecurityService() {
         <div className="flex gap-10 below-680:flex-col w-[100%] justify-between items-center">
           <div className="flex flex-col gap-4 items-center w-[40%] below-680:w-[100%]">
             <p className="font-bold text-blue-500 text-2xl">
-              About Pantry Services
+              About Security Services
             </p>
             <ImageCard
               src={"/assets/images/security-service-image1.png"}
