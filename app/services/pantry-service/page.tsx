@@ -28,21 +28,22 @@ export default function PantryService() {
 
           <div className="flex flex-col gap-10 w-[60%] below-680:w-[100%]">
             <p>
-              A pantry is an area where Tea / Coffee, Dishes, food or eatables
-              are stored and served in an ancillary capacity to the cafeteria.
-              The well-trained professional will always be deployed at the
-              pantry to maintain it and perform the desired errands. There are
-              so many reasons why the Pantry point, where Tea and Coffee service
-              is mandatory for any Organization. At first, the professional
-              set-up leaves a very positive impression on the minds of the
-              clients who visit your office. And most importantly, our job is
-              not only to provide professional service but also maintaining
-              proper hygiene in the Pantry and its surroundings. We are well
-              capable of understanding the different requirements of various
-              Corporate setups. Our pantry staff are well trained in different
-              dimensions such as operating the vending machines, using of
-              dishwashing machines, serving to high designated persons,
-              organizing meetings & events etc.
+              At <b>APR</b>, we recognize the importance of a well-maintained
+              pantry in creating a professional and efficient workplace. A
+              clean, organized, and fully functional pantry not only enhances
+              the daily experience of employees but also leaves a lasting
+              positive impression on visiting clients. Our experienced team
+              provides comprehensive pantry services tailored to meet the unique
+              needs of corporate environments.
+            </p>
+            <p>
+              We prioritize hygiene and cleanliness while ensuring smooth daily
+              operations. From managing vending machines and dishwashers to
+              serving high-profile guests and supporting meetings and events, we
+              deliver excellence at every step. By taking care of every detail,
+              we allow you to focus on your core business priorities, ensuring a
+              seamless and professional experience for both employees and
+              visitors.
             </p>
           </div>
         </div>
