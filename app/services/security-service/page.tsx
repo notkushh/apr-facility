@@ -48,7 +48,6 @@ export default function SecurityService() {
             <ul className="list-disc pl-7">
               <li>Security Guards (Male / Female)</li>
               <li>Security Gunmen</li>
-              <li>Security Gunmen</li>
               <li>Bouncers and</li>
               <li>Personal Security Officers (PSO)</li>
             </ul>

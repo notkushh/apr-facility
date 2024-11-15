@@ -46,7 +46,7 @@ export default function ContactPage() {
               {getContactField(
                 MapPinned,
                 "Address",
-                "H.N. 222B, NKV Residency Behind DPG College, Gurgaon, Haryana-122001"
+                "Plot no. 222, B NKV Residency Behind DPG College, Gurgaon, Haryana-122001"
               )}
 
               {getContactField(Phone, "Phone", "+91-9310774669")}
@@ -57,12 +57,21 @@ export default function ContactPage() {
         </CardWithHeading>
 
         <CardWithHeading text={"Find Us"}>
-          <MapComponent
+          {/* <MapComponent
             height={200}
             width={"100%"}
             latitude={27.875782}
             longitude={78.073635}
-          />
+          /> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8843577779217!2d77.01892757532758!3d28.42274607577993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1807dbc49a3d%3A0x2584bbef47ff4c41!2s222%2C%20NKV%20Residency%20Rd%2C%20A-Block%2C%20Sector%2072A%2C%20Sector%2072%2C%20Gurugram%2C%20Haryana%20122004!5e0!3m2!1sen!2sin!4v1731681695862!5m2!1sen!2sin"
+            width="100%"
+            height="200"
+            style={{ border: 0 }}
+            allowfullscreen={true}
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </CardWithHeading>
       </div>
 

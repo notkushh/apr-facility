@@ -18,7 +18,7 @@ export default function AboutPage() {
                 About APR Facilities Private Limited
               </p>
               <p>
-                Founded in the year 2013, it is one of the most progressing
+                Founded in the year 2024, it is one of the most progressing
                 independent service partners in India, having a head office in
                 Gurgaon with a PAN India spread. We are engaged in the field of
                 Facility Management & HR Solutions.

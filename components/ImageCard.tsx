@@ -4,7 +4,7 @@ import React from "react";
 interface ImageCardProps {
   src: string;
   alt: string;
-  h: number;
+  h: number | string;
   w: number | string;
   objectFit: string;
 }

@@ -12,7 +12,7 @@ export default function HouseKeepingService() {
       />
 
       <div className="flex flex-col w-[85%] justify-center items-center gap-16 mt-10">
-        <div className="flex gap-10 below-680:flex-col w-[100%]">
+        <div className="flex gap-10 below-680:flex-col w-[100%] items-center">
           <div className="flex flex-col gap-4 items-center w-[40%] below-680:w-[100%]">
             <p className="font-bold text-blue-500 text-2xl">
               About House Keeping Services
@@ -38,40 +38,88 @@ export default function HouseKeepingService() {
             </p>
 
             <p>
-              Most Corporations pay vast amount of cash on the infrastructure of
-              their Offices. At times, several of them entrust the cleansing and
-              maintenance of the pricey interiors to amateurs resulting in the
-              fitting deteriorate and also the Company needs to incur further
-              expenses on repair and renovation. With the proliferation and
-              convenience of a good sort of interior materials, primitive
-              amateurs either use the incorrect material, wrong procedure or
-              improperly clean the things. Several Corporations that had
-              undertaken housework conjointly work with in-house employees have
-              slowly completed the necessity to use skilled and square measure
-              switch over to professional service organizations for housework.
-              APR’s SECURITY & FACILITY SERVICES provide solutions to all of
-              your housework service connected issues.
+              At APR Facility, we understand that a clean and organized
+              workspace is essential for productivity and employee satisfaction.
+              Our professional corporate housekeeping services are designed to
+              meet the unique needs of businesses, ensuring a pristine and
+              welcoming environment for both staff and visitors.
             </p>
           </div>
         </div>
-        <div className="flex gap-10 below-680:flex-col w-[100%]">
-          <div className="flex flex-col gap-10 w-[60%] below-680:w-[100%]">
-            <p>
-              Routine executive work services are of comprehensive nature, i.e.,
-              we offer employees, machines, and materials for cleanup and
-              maintenance of company premises, company guest houses, company
-              industries, etc. Our customer’s approach is to confirm each visual
-              and sanitary cleanup of the premises the least bit times that is
-              applied on a composite daily, weekly, and monthly cleanup basis.
-              We tend to deploy trained, tough, clothed, and polite government
-              work employees alongside the correct direction of consultants.
+
+        <div className="flex gap-10 below-680:flex-col w-[100%] items-center">
+          <div className="flex flex-col gap-5 w-[60%] below-680:w-full">
+            <p className="text-blue-500 font-bold text-2xl">
+              Our Services include :
             </p>
+
+            <div className="w-full above-680:hidden h-[300px] below-400:w-full">
+              <ImageCard
+                src={"/assets/images/house-keeping-image2.jpg"}
+                alt={"house-keeping-img1"}
+                h={"100%"}
+                w={"100%"}
+                objectFit="contain"
+              />
+            </div>
+
+            <ol className="list-decimal list-inside pl-7 below-400:pl-2 flex flex-col gap-3">
+              <li className="font-bold">Daily Cleaning Operations :</li>
+              <p className="ml-4">
+                Comprehensive cleaning of workspaces, including desks, meeting
+                rooms, and common areas to maintain a tidy and professional
+                appearance. Restroom Sanitization: Regular cleaning and
+                disinfecting of restrooms to ensure hygiene and comfort.
+              </p>
+
+              <li className="font-bold">Specialized Deep Cleaning :</li>
+              <p className="ml-4">
+                Intensive cleaning services that tackle hard-to-reach areas,
+                carpets, and upholstery to refresh your office environment.
+                Window Cleaning: Crystal-clear windows enhance the overall look
+                of your corporate space.
+              </p>
+
+              <li className="font-bold">Waste Management:</li>
+              <p className="ml-4">
+                Efficient disposal and recycling services to promote an
+                eco-friendly workplace.
+              </p>
+
+              <li className="font-bold">Floor Care</li>
+              <ul className="list-disc pl-10">
+                <li>
+                  <b>
+                    <i>Hard Floor Maintenance : </i>
+                  </b>
+                  Sweeping, mopping, and buffing to keep floors spotless and
+                  safe.
+                </li>
+                <li>
+                  <b>
+                    <i>Carpet Care : </i>
+                  </b>
+                  Regular vacuuming and deep cleaning to maintain the quality
+                  and appearance of your carpets.
+                </li>
+              </ul>
+
+              <li className="font-bold">Supply Management</li>
+              <p className="ml-4">
+                Monitoring and replenishing cleaning supplies, restroom
+                toiletries, and kitchen essentials to ensure your office runs
+                smoothly.
+              </p>
+
+              <li className="font-bold">Customized Services</li>
+            </ol>
           </div>
-          <div className="flex flex-col gap-4 items-center w-[40%] below-680:w-[100%]">
+
+          <div className="w-[40%] h-[400px] below-680:hidden">
             <ImageCard
               src={"/assets/images/house-keeping-image2.jpg"}
               alt={"house-keeping-img1"}
-              h={200}
+              h={"100%"}
               w={"100%"}
               objectFit="contain"
             />

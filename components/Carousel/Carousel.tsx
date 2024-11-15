@@ -10,7 +10,6 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import Link from "next/link";
 
 type PropType = {
   slides: carouselImageType[];
