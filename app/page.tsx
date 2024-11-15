@@ -23,7 +23,7 @@ export default function Home() {
               comprehensive range of services. Whether you need reliable
               <b> security solutions</b>, professional <b>pest control</b>,
               meticulous <b> housekeeping services</b>, or convenient
-              <b> pantry</b> restocking, we&apos;ve got you covered. Our team of
+              <b> pantry services</b>, we&apos;ve got you covered. Our team of
               experts is dedicated to delivering top-quality service with a
               focus on convenience, safety, and satisfaction.
             </p>

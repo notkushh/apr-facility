@@ -15,7 +15,7 @@ const carouselImagesSlides: carouselImageType[] = [
   {
     src: "/assets/images/pantry-services-main1.jpg",
     text: "PANTRY SERVICE",
-    desc: "APR is your trusted partner for seamless pantry services, offering hassle-free delivery and restocking of essential food and household items, ensuring your home or business stays well-supplied and organized.",
+    desc: "APR is your trusted partner for seamless pantry services, ensuring a clean, organized, and efficient space. From maintaining hygiene to supporting meetings and events, we deliver exceptional service tailored to your needs.",
     href: "/services/pantry-service",
   },
   {
