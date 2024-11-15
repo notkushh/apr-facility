@@ -26,19 +26,19 @@ export default function SecurityService() {
             />
           </div>
 
-          <div className="flex flex-col gap-10 w-[60%] below-680:w-[100%]">
+          <div className="flex flex-col gap-5 w-[60%] below-680:w-[100%]">
             <p>
-              SSOS provides Security Services to corporates and individuals. We
-              have professional and trained Security Guards to protect your
-              property from fire, theft, attacks, demolition and illegal
-              activities. Our security team works under the guidance of senior
-              ex-army officers. Our guards’ physique will match to the army
-              standards and their communication skills are excellent. We provide
-              personnel to maintain high security at Offices, Buildings,
-              Shopping Malls, Banks, Hospitals, Educational Institutions,
-              Hotels, ATMs, and Parking lot etc. We also provide digital
-              security devices and metal detectors for checking and verification
-              at entry point of the premises.
+              APR Facility’s Security Services are designed to create a safe and
+              welcoming environment for your employees, clients, and visitors.
+              Our rigorously trained and highly professional security personnel
+              are equipped to handle diverse security challenges with expertise.
+              Through robust protocols, advanced solutions like access control
+              and CCTV monitoring, and vigilant monitoring, we ensure your
+              premises remain secure and protected from unauthorized access or
+              risks. By safeguarding your assets and maintaining a secure
+              environment, we instill confidence in everyone who enters your
+              facility, enabling you to focus on innovation and growth without
+              concern.
             </p>
           </div>
         </div>

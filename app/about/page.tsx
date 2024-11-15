@@ -18,33 +18,33 @@ export default function AboutPage() {
                 About APR Facilities Private Limited
               </p>
               <p>
-                Founded in the year 2024, it is one of the most progressing
-                independent service partners in India, having a head office in
-                Gurgaon with a PAN India spread. We are engaged in the field of
-                Facility Management & HR Solutions.
+                Established in 2024, APR Facility was founded on the belief that
+                quality facility management is essential for a thriving business
+                environment. Our goal is to provide reliable, top-tier services
+                that address all aspects of facility management under one roof.
               </p>
             </div>
             <div className="flex flex-col gap-3 w-[65%] below-400:w-full">
               <p>
-                The thrust of APR has been for the most part outlined and
-                embodied by the dedicated and tireless pursuit of excellence by
-                Senior Ex-Defense personnel and a dedicated team of principal
-                consultants. APR’s assets include dedicated personnel and a team
-                of execs powering the expansion within the different verticals
-                of the cluster operations. We’ve gone to get on the highest by
-                interrupting the winning culture, operational within the highest
-                standards of ethics and values and trying for excellence in
-                client services and quality. Our journey ahead is full of
-                enthusiasm and immense potential we tend to. We stay committed
-                to constructing a distinction for every one of our shoppers and
-                the sectors we serve. We bring our experience to work
-                collaboratively with our Clients to deliver the support they
-                need for the future.
+                APR Facility Services Pvt. Ltd. is dedicated to providing
+                high-quality, comprehensive facility management solutions
+                tailored to meet the unique needs of our clients. From
+                housekeeping and pantry services to security and pest control,
+                we offer a one-stop solution that ensures your workspace is
+                clean, safe, and efficient. With a focus on operational
+                excellence and customer satisfaction, we strive to make your
+                environment hassle-free and conducive to productivity. Our team
+                is committed to eco-friendly practices, using green products and
+                sustainable methods that support a healthier workspace and
+                reduce environmental impact.
               </p>
 
               <p>
-                We help you to achieve the maximum efficiency of productivity as
-                per your strategic goals.
+                Our customer-centric approach drives us to listen closely to
+                client needs, create tailored solutions, and build long-lasting
+                relationships. With a presence across major cities in India and
+                24/7 support, we’re here to support your business whenever and
+                wherever you need us.
               </p>
             </div>
           </div>
@@ -56,30 +56,33 @@ export default function AboutPage() {
 
             <ul className="list-disc pl-12 below-400:pl-8 mt-5 mb-10">
               <li>
-                APR understands that every customer is unique, hence, we provide
-                excellent customized customer service.
+                We have a strong track record of delivering consistent,
+                high-quality services across various industries.
               </li>
               <li>
-                APR adjusts all capabilities of its service delivery according
-                to its customers’ needs.
+                Our team is highly experienced and regularly trained to ensure
+                professional and reliable service.
               </li>
               <li>
-                We believe in a robust impeccable value model for our customers
-                with the approach of integrity, transparency, and
-                customer-centricity.
+                We provide a comprehensive range of tailored facility management
+                services, including housekeeping, security, pantry, and pest
+                control.
               </li>
               <li>
-                Through the use of local resources and global expertise, APR can
-                optimize its service schedule by incorporating the best
-                available resources.
+                With a nationwide presence and 24/7 support, we are always
+                available to meet your needs.
               </li>
               <li>
-                Local resources are given priority to optimize and economize the
-                project costs.
+                All our services are handled in-house, ensuring strict quality
+                control and accountability.
               </li>
               <li>
-                APR’s dedicated personnel are available to assist with the
-                project support and execution to ensure the utmost satisfaction.
+                We prioritize eco-friendly practices, using sustainable products
+                and methods for a healthier environment.
+              </li>
+              <li>
+                Our customer-focused approach ensures we listen and adapt to
+                your specific needs, fostering long-term relationships.
               </li>
             </ul>
 
