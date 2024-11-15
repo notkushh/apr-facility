@@ -49,19 +49,23 @@ export default function PantryService() {
         </div>
         <div className="flex gap-10 below-680:flex-col w-[100%]">
           <div className="flex flex-col gap-5 w-[100%]">
-            <p className="text-blue-500 font-bold text-2xl">
-              Our Pantry Services include :
-            </p>
-            <ul className="list-disc pl-7">
-              <li>Serving with elegance & etiquette</li>
-              <li>Well-trained professionals</li>
+            <p className="text-blue-500 font-bold text-2xl">Our Expertise :</p>
+            <ul className="list-disc pl-7 flex flex-col gap-1">
               <li>
-                Services that are designed by our experts in such a way that
-                clients get the finest results
+                We provide service with grace and professionalism, ensuring
+                every interaction reflects the highest standards.
               </li>
               <li>
-                The current market trends and execute these services in the best
-                possible way.
+                Our skilled team delivers exceptional service with expertise and
+                courtesy.
+              </li>
+              <li>
+                Tailored by experts, our services are designed to deliver the
+                best possible outcomes.
+              </li>
+              <li>
+                We stay ahead of trends to execute services in the most
+                effective and innovative ways.
               </li>
               <li>
                 Excellent Corporate Pantry services characterized by hygiene,
