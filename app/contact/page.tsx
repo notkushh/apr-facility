@@ -6,11 +6,11 @@ import PageImageCover from "@/components/PageImageCover";
 import { LucideProps } from "lucide-react";
 import { MapPinned, Phone, Mail } from "lucide-react";
 
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 
-const MapComponent = dynamic(() => import("@/components/MapComponent"), {
-  ssr: false,
-});
+// const MapComponent = dynamic(() => import("@/components/MapComponent"), {
+//   ssr: false,
+// });
 
 export default function ContactPage() {
   const getContactField = (
@@ -68,9 +68,10 @@ export default function ContactPage() {
             width="100%"
             height="200"
             style={{ border: 0 }}
-            allowfullscreen={true}
+            allowFullScreen={true}
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Our Location on Google Maps"
           ></iframe>
         </CardWithHeading>
       </div>
