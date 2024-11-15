@@ -18,10 +18,13 @@ function NavigationBarWeb({ navMenu }: { navMenu: NavItem[] }) {
   const getNavbarMenuComponent = (navItem: NavItem) => {
     if (navItem.submenu.length === 0) {
       return (
-        <NavigationMenuItem key={navItem.title}>
+        <NavigationMenuItem
+          key={navItem.title}
+          className="hover:bg-gray-100 rounded-sm"
+        >
           <Link href={navItem.href} legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <p className="font-extrabold text-base">{navItem.title}</p>
+              <p className="text-sm text-gray-700">{navItem.title}</p>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -29,8 +32,8 @@ function NavigationBarWeb({ navMenu }: { navMenu: NavItem[] }) {
     } else {
       return (
         <NavigationMenuItem key={navItem.title}>
-          <NavigationMenuTrigger>
-            <p className="font-extrabold text-base">{navItem.title}</p>
+          <NavigationMenuTrigger className="hover:bg-gray-100">
+            <p className="text-sm text-gray-700">{navItem.title}</p>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="flex flex-col w-[220px]">
@@ -60,19 +63,16 @@ function NavigationBarWeb({ navMenu }: { navMenu: NavItem[] }) {
 const ListItem = React.forwardRef(
   ({ title, pageLink }: { title: string; pageLink: string }) => {
     return (
-      <li>
-        <NavigationMenuLink
-          asChild
-          className={cn("w-[220px] top-[-10px]", navigationMenuTriggerStyle())}
-        >
+      <li className="hover:bg-gray-100">
+        <NavigationMenuLink asChild className={"w-[220px]"}>
           <Link
             href={pageLink}
             className={cn(
-              "w-[220px] h-full block select-none space-y-1 rounded-md p-4 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-black"
+              "w-[220px] h-full block select-none space-y-1 rounded-md p-3"
             )}
           >
-            <div className="text-sm font-medium leading-none w-[220px] hover:text-black">
-              <p className="text-sm text-gray-500">{title}</p>
+            <div className="w-full">
+              <p className="text-sm text-gray-700">{title}</p>
             </div>
           </Link>
         </NavigationMenuLink>
