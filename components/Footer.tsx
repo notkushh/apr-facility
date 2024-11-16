@@ -15,7 +15,7 @@ function Footer() {
             <div className="flex flex-col items-start gap-1 text-xs">
               <div className="flex gap-2">
                 <div className="flex flex-col items-start">
-                  <p>H.N.222B, NKV Residency Behind DPG College,</p>
+                  <p>Plot no. 222, B NKV Residency Behind DPG College,</p>
                   <p>Gurgaon, Haryana-122001</p>
                 </div>
               </div>
