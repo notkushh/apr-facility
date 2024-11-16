@@ -24,7 +24,7 @@ export function NavigationBar() {
       <div onClick={toggleSidebar}>
         <Menu className="above-680:hidden mr-2" style={{ color: "#383636" }} />
       </div>
-      <NavigationBarMobile navMenu={NavbarMenu} />
+      <NavigationBarMobile navMenu={NavbarMenu} toggleSideBar={toggleSidebar} />
       <NavigationBarWeb navMenu={NavbarMenu} />
     </header>
   );

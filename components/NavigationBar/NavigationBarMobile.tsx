@@ -25,14 +25,31 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 
-function NavigationBarMobile({ navMenu }: { navMenu: NavItem[] }) {
+// eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+function NavigationBarMobile({
+  navMenu,
+  toggleSideBar,
+}: {
+  navMenu: NavItem[];
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+  toggleSideBar: Function;
+}) {
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    toggleSideBar();
+  };
+
+  const handleCollapsableClick = () => {
+    setIsOpen(!isOpen);
+    toggleSideBar();
+  };
 
   const getSidebarSubmenuComponent = (navItem: NavItem) => {
     if (navItem.submenu.length === 0) {
       return (
         <SidebarMenuItem key={navItem.title}>
-          <SidebarMenuButton asChild className="mb-2">
+          <SidebarMenuButton asChild className="mb-2" onClick={handleClick}>
             <Link href={navItem.href}>
               <div className="flex justify-center items-center gap-2">
                 <navItem.icon />
@@ -60,7 +77,6 @@ function NavigationBarMobile({ navMenu }: { navMenu: NavItem[] }) {
                     <navItem.icon />
                     <span className="text-lg">{navItem.title}</span>
                   </div>
-                  {/* Conditionally apply rotation class based on `isOpen` state */}
                   <ChevronDown
                     className={`${
                       isOpen ? "rotate-180" : "rotate-0"
@@ -77,6 +93,7 @@ function NavigationBarMobile({ navMenu }: { navMenu: NavItem[] }) {
                 <SidebarMenuSubItem
                   key={subItem.title}
                   className="hover:bg-gray-100 p-[4px] pl-1"
+                  onClick={handleCollapsableClick}
                 >
                   <Link href={subItem.href}>
                     <p>{subItem.title}</p>

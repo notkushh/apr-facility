@@ -20,12 +20,13 @@ export default function Home() {
           <div className="flex flex-col gap-10 w-[100%]">
             <p>
               At APR, we are committed to making your life easier with our
-              comprehensive range of services. Whether you need reliable
+              comprehensive range of services. Whether you need meticulous
+              <b> housekeeping services</b>, or convenient
+              <b> pantry services</b>, reliable
               <b> security solutions</b>, professional <b>pest control</b>,
-              meticulous <b> housekeeping services</b>, or convenient
-              <b> pantry services</b>, we&apos;ve got you covered. Our team of
-              experts is dedicated to delivering top-quality service with a
-              focus on convenience, safety, and satisfaction.
+              we&apos;ve got you covered. Our team of experts is dedicated to
+              delivering top-quality service with a focus on convenience,
+              safety, and satisfaction.
             </p>
             <p>
               Explore our offerings and discover how we can help you maintain a
